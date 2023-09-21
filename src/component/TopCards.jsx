@@ -13,7 +13,7 @@ const TopCards = () => {
           <img
             src={bnb_img}
             alt="Small Image"
-            className="w-24 h-24 absolute -top-16 left-1/2 transform -translate-x-1/2"
+            className="w-16 h-16 absolute -top-10 left-1/2 transform -translate-x-1/2"
             />
           <h2 className="text-xl font-semibold mb-1 mt-4">40.00000300 BNB</h2>
           <p className="mb-4 font-light text-xs">ROUND POT SIZE</p>
@@ -22,7 +22,7 @@ const TopCards = () => {
           <img
             src={load_img}
             alt="Small Image"
-            className="w-24 h-24 absolute -top-16 left-1/2 transform -translate-x-1/2"
+            className="w-16 h-16 absolute -top-10 left-1/2 transform -translate-x-1/2"
           />
           <h2 className="text-xl font-semibold mb-1 mt-4">Loading...</h2>
           <p className="mb-4 font-light text-xs">TIME LEFT</p>
@@ -31,7 +31,7 @@ const TopCards = () => {
           <img
             src={vou_img}
             alt="Small Image"
-            className="w-24 h-24 absolute -top-16 left-1/2 transform -translate-x-1/2"
+            className="w-16 h-16 absolute -top-10 left-1/2 transform -translate-x-1/2"
           />
           <h2 className="text-xl font-semibold mb-1 mt-4 line-through">0.00795 BNB</h2>
           <p className="font-light text-xs" >TICKET PRICE</p>
@@ -42,7 +42,7 @@ const TopCards = () => {
           <img
             src={win_img}
             alt="Small Image"
-            className="w-24 h-24 absolute -top-16 left-1/2 transform -translate-x-1/2"
+            className="w-16 h-16 absolute -top-10 left-1/2 transform -translate-x-1/2"
           />
           <h2 className="text-xl font-semibold mb-1 mt-4">1</h2>
           <p className="mb-4 font-light text-xs">ROUND NUMBER</p>
