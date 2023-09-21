@@ -100,21 +100,28 @@ const BelowCards = () => {
         {/* ///////////////////////////////////////// */}
 
         <div
-          className="p-4 shadow-md rounded-lg relative"
+          className="p-4 shadow-custom rounded-lg relative"
           style={{ backgroundColor: "rgba(59,51,100,255)" }}
         >
-          <h2 className="text-xl font-semibold mb-2">ROUND STATISTICS</h2>
-          <p className="mb-1 font-light text-xs">
-            Total Tickets Bought: <span>0 Tickets</span>
-          </p>
+          <h2 className="text-xl font-semibold mb-2 text-amber-300">
+            ROUND STATISTICS
+          </h2>
+          <div className="flex justify-between">
+            <p className="mb-1 font-light text-xs">Total Tickets Bought:</p>
+            <span className="text-sm font-bold text-[#81d2e5]">0 Ticket</span>
+          </div>
           &nbsp;
-          <p className="mb-1 font-light text-xs">
-            BNB Spent On Tickets: <span>0 BNB</span>
-          </p>
+          <div className="flex justify-between">
+            <p className="mb-1 font-light text-xs">BNB Spent On Tickets:</p>
+            <span className="text-sm font-bold text-[#81d2e5]">0 BNB</span>
+          </div>
           &nbsp;
-          <p className="mb-1 font-light text-xs">
-            Tokens Bought Back And Burned: <span>0</span>
-          </p>
+          <div className="flex justify-between">
+            <p className="mb-1 font-light text-xs">
+              Tokens Bought Back And Burned:
+            </p>
+            <span className="text-sm font-bold text-[#de5277]">0</span>
+          </div>
         </div>
       </div>
     </div>
