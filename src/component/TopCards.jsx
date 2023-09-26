@@ -1,4 +1,3 @@
-import React, { useEffect, useRef, useState } from "react";
 import bnb_img from "../assets/bnbbag.webp";
 import load_img from "../assets/load.png";
 import vou_img from "../assets/voucher.png";
@@ -9,7 +8,6 @@ const TopCards = () => {
     <div>
       <div className="relative flex-1 flex overflow-x-scroll no-scrollbar select-none">
         <div className="flex flex-row gap-10 text-center pb-8 text-white w-max">
-          {/* qwrtiop */}
           <div
             className="p-4 rounded-lg w-[280px] lg:w-[283px]  mb-4 relative border-t-4 border-l-2 border-r-2 border-[#d753d2] shadow-xl flex-shrink-0 w-[calc(25% - 2rem)]"
             style={{ backgroundColor: "rgba(59,51,100,255)" }}
@@ -18,7 +16,6 @@ const TopCards = () => {
             <h2 className="text-xl font-semibold mb-1 mt-4">40.00000300 BNB</h2>
             <p className="mb-4 font-light text-xs">ROUND POT SIZE</p>
           </div>
-          {/* qwrtiop */}
 
           <div
             className="bg-white p-4 rounded-lg w-[280px] lg:w-[283px] mb-4 relative border-t-4 border-l-2 border-r-2 border-[#d753d2] shadow-xl flex-shrink-0 w-[calc(25% - 2rem)]"
@@ -28,7 +25,6 @@ const TopCards = () => {
             <h2 className="text-xl font-semibold mb-1 mt-4">Loading...</h2>
             <p className="mb-4 font-light text-xs">TIME LEFT</p>
           </div>
-          {/* qwrtiop */}
 
           <div
             className="bg-white p-4 rounded-lg w-[280px] lg:w-[283px] mb-4 relative border-t-4 border-l-2 border-r-2 border-[#d753d2] shadow-xl flex-shrink-0 w-[calc(25% - 2rem)]"
@@ -42,7 +38,6 @@ const TopCards = () => {
             <p className="text-sm">0.00795 BNB (-0.0%)</p>
             <p className="font-light text-xs">YOUR HOLDER DISCOUNTED PRICE</p>
           </div>
-          {/* qwrtiop */}
 
           <div
             className="bg-white p-4 rounded-lg w-[280px] lg:w-[283px] mb-4 relative border-t-4 border-l-2 border-r-2 border-[#d753d2] shadow-xl flex-shrink-0 w-[calc(25% - 2rem)]"
