@@ -3,13 +3,10 @@ import React from "react";
 const BelowCards = () => {
   return (
     <div>
-      {/* Below Cards Start*/}
-      <div className="grid grid-cols-4 gap-0 mt-2 text-gray-300">
-
+      <div className="flex lg:flex-row flex-col gap-0 text-gray-300">
         {/* Left Card Start */}
-
         <div
-          className="p-4 shadow-custom rounded-lg relative"
+          className="order-2 md:order-1 mb-10 p-5 shadow-custom rounded-lg relative"
           style={{ backgroundColor: "rgba(59,51,100,255)" }}
         >
           <h2 className="text-xl font-semibold mb-3 text-amber-300">
@@ -90,12 +87,10 @@ const BelowCards = () => {
             </span>
           </div>
         </div>
-
         {/* Left Card End */}
 
         {/* Middle Card Start */}
-
-        <div className="col-span-2 p-4 m-2 relative text-white">
+        <div className="order-1 md:order-2 lg:p-8 col-span-2 mb-4 relative text-white">
           <div className="border rounded-lg border-[#d753d2] text-center pt-1 pb-1">
             <p className="text-xs font-bold">
               Last Buyer: <span className="text-green-500">0x0000...0000</span>
@@ -115,10 +110,12 @@ const BelowCards = () => {
 
           <div className="border rounded-lg border-[#d753d2] text-center pt-1 pb-1 m-2 mt-4">
             <div className="font-bold text-xl flex items-center justify-center gap-2">
-              <div className="w-6 h-6 transform rotate-90 mr-24">&#10094;</div>
+              <div className="w-6 h-6 transform rotate-90 lg:mr-20">
+                &#10094;
+              </div>
               <div className="col-span-1">
-                <span className="mr-8">1</span>
-                <span className="text-sm text-gray-400 font-semibold mr-24">
+                <span className="mr-4 ml-4">1</span>
+                <span className="text-sm text-gray-400 font-semibold lg:mr-24 mr-4">
                   Ticket
                 </span>
               </div>
@@ -164,13 +161,11 @@ const BelowCards = () => {
             buyer spot - the more tickets you buy, the more you earn per minute
           </p>
         </div>
-
         {/* Middle Card End */}
 
         {/* Right Card Start */}
-
         <div
-          className="p-4 shadow-custom rounded-lg relative"
+          className="order-3 p-4 shadow-custom rounded-lg relative"
           style={{ backgroundColor: "rgba(59,51,100,255)" }}
         >
           <h2 className="text-xl font-semibold mb-3 text-amber-300">
@@ -191,11 +186,8 @@ const BelowCards = () => {
             <span className="text-sm font-bold text-[#de5277]">0</span>
           </div>
         </div>
-
         {/* Right Card End */}
-
       </div>
-      {/* Below Cards End */}
     </div>
   );
 };
