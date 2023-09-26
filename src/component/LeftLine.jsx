@@ -3,7 +3,7 @@ import React from "react";
 const LeftLine = () => {
   return (
     <div>
-      <div className="h-full flex flex-col">
+      <div className="h-full hidden lg:flex flex-col ">
         <div
           className="flex-grow p-4"
           style={{ backgroundColor: "rgba(59,51,100,255)" }}
